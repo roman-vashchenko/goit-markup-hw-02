@@ -1,0 +1,28 @@
+/**/
+/* колір заголовків #212121 */
+/*  колір тексту #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --background-color: #f5f5f5;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
